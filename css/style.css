@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "playfairdisplay-regular" ;
+  src: url(../fonts/playfair-display/PlayfairDisplay-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: "playfairdisplay-bold";
+  src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+  font-family: "ubuntu-light";
+  src: url(../fonts/playfair-display/Ubuntu-L.ttf);
+}
+
+
+
+
+
+
+body{
+  margin: 0;
+}
+
+
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+
+  overflow: hidden;
+  padding: 30px 0px;
+
+  
+}
+
+.logo {
+  width: 12%;
+
+  float: left;;
+  padding-top: 10px;
+}
+.logo img{
+  width: 100%;
+
+}
+
+.menu {
+  width: 65%;
+
+  float: right;
+
+  
+}
+
+.menu ul{
+  float: right;
+
+}
+
+.menu ul li{
+  list-style-type: none;
+  float: left;
+  margin: 0 45px;
+  text-transform: uppercase;
+
+}
+
+.menu ul li a{
+  font-family: "playfairdisplay-regular" ;
+  font-weight: 400;
+  font-size:16px;
+  color:#626262;;
+  border: 2px solid transparent;
+  text-decoration: none;
+  
+
+}
+
+.menu ul li:last-child{
+  margin-right:0px ;
+}
+
+.menu ul li a:hover{
+  border-bottom: 2px solid black;
+  transition: 0.3s
+
+}
+
+.banner{
+  width: 90%;
+  margin: 0 auto;
+
+
+}
+
+.banner-img{
+  width: 100%;
+
+}
+.banner-img img{
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+.gateaway{
+  width: 80%;
+  margin: 0 auto;
+}
+.p-top-bottom{
+  padding: 90px 0px 25px;
+}
+
+.g-start{
+  font-family:"ubuntu-light";
+  font-weight: 300;
+  font-size: 16px;
+  color: #b4ad9e;
+  text-transform: uppercase;
+
+}
+
+.b-heading{
+  font-family: "playfairdisplay-regular" ; 
+  font-size: 40px;
+  font-weight: 400; 
+  color: #626262;
+}
+
+.m-top{
+  margin-top: 40px;
+}
+
+.b-paragraph{
+  font-size: 19px;
+  color: #707070;
+  margin-bottom: 70px;
+  text-align: left;
+}
+
+.g-end{
+  font-family:"ubuntu-light";
+  font-weight: 300;
+  font-size: 16px;
+  color: #b9b2a5;
+}
+
+.service{
+  overflow: hidden;
+}
+
+.service-img{
+  width: 100%;
+
+}
+.service-img img{
+  width: 100%;
+}
+
+.box-1{
+  width: 46%;
+  float: left;
+  margin-top: 120px;
+}
+
+.box-1:nth-child(even){
+  margin-left: 8%;
+}
+
+
+.newsletter{
+  width: 100%;
+  background-color: #f0f0f0;
+  margin-top: 120px;
+}
+
+.newsletter-container{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+.newsletter h1{
+  font-family: "playfairdisplay-regular" ;
+  font-weight: 400;
+  font-size: 40px;
+  color: #333333;
+  padding: 60px 0px;
+}
+
+ .news-form{
+  width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.news-form input{
+  font-family: "playfairdisplay-regular" ;
+  font-weight: 400;
+  font-size: 16px;
+  border: none; 
+  border-bottom: 2px solid black;
+  margin-bottom: 65px; 
+  padding: 5px 0;
+  color: #626262;
+  background-color:#f0f0f0 ;
+  width: 480px;
+
+}
+.news-form input:focus{
+  outline: 0;
+}
+
+.news-form button {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.btn-load{
+  text-align: center;
+  margin-bottom: 1360px;
+  margin-top: 120px;
+}
+
+.btn-load button{
+  padding: 18px 35px;
+  color:#626262;
+  border: 2px solid #626262;
+  background-color: white;
+  font-size: 18px;
+}
+.btn-load button:hover{
+  background-color: #626262;
+  color: white;
+}
+
+footer{
+  background-color: #f0f0f0;
+
+  
+}
+.footer-container{
+  width:80%;
+  padding: 20px 0;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.fc-left{
+  width: 50%;
+  float: left;
+}
+
+.fc-left ul li{
+  list-style-type: none;
+  float: left;
+  margin-right: 15px;
+}
+
+.fc-left ul li a{
+  font-family: "playfairdisplay-regular" ;
+  font-weight: 400;
+  font-size: 16px;
+  color: #202020;
+  text-decoration: none;
+}
+
+.fc-right{
+  width: 50%;
+  float: right;
+}
+
+.fc-right ul {
+  float: right;
+}
+.fc-right ul li{
+  list-style-type: none;
+  float: left;
+  margin-right: 20px;
+  
+}
+
+.fc-right ul li span {
+  font-size: 16px;
+  color:#202020;
+}
+
+.fc-right ul li a{
+  font-family: "playfairdisplay-regular" ;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #202020;
+ 
+}
+  
